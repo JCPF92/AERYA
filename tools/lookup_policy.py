@@ -5,6 +5,8 @@ import openai
 import os
 
 
+
+
 @tool
 def lookup_policy(input: str, directory: str, k: int = 1) -> str:
     """Consult the company policies to answer any question related with general
